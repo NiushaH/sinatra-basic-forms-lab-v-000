@@ -5,6 +5,6 @@ class Puppy
   def initialize(params)
     @name = params[:name]
     @grade = params[:grade]
-    @@all << self
+    @age = params[:age]
   end
 end 
