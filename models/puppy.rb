@@ -8,4 +8,9 @@ class Puppy
     @grade = params[:grade]
     @age = params[:age]
   end
+  
+  def self.all
+    @@all
+  end
+ 
 end 
